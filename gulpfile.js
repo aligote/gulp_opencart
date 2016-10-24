@@ -46,7 +46,7 @@ gulp.task('php', function() {
 
 gulp.task('tpl', function () {
 	gulp.src(dev + '/template/**/*.tpl')
-	.pipe(gulp.dest(themeDirectory + '/template'));
+	.pipe(gulp.dest(themeDirectory + '/template'))
 	.pipe(livereload());
 });
 
