@@ -52,11 +52,11 @@ Thumbs.db
 *.tar
 *.zip
 
-#ignore src directory
-src/
-
 #ignore opencart directory
 opencart/
+
+# track readme (i.e. do NOT ignore it)
+!opencart/drop_opencart-upload_here.md
 
 #ignore node_modules directory
 node_modules/
