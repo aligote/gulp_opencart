@@ -53,7 +53,7 @@ Thumbs.db
 *.zip
 
 #ignore opencart directory
-opencart/
+opencart/*
 
 # track readme (i.e. do NOT ignore it)
 !opencart/drop_opencart-upload_here.md
